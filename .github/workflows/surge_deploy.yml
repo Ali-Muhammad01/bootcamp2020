@@ -29,5 +29,5 @@ jobs:
       run: npm install -g surge
     
     - name: Deploy on surge
-      run: surge ./ alibootcamp2020.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./ alibootcamp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
  
